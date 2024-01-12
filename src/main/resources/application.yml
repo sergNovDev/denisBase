@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    password: admin
+    username: admin
+    url: jdbc:postgresql://localhost:5990/db
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
+
+    hibernate:
+      ddl-auto: validate
